@@ -14,7 +14,6 @@ import GithubIcon from './assets/images/icon-github.png';
 import TwitterIcon from './assets/images/icon-twitter.png';
 import TelegramIcon from './assets/images/icon-telegram.png';
 import MediumICon from './assets/images/icon-medium.png';
-import DiscordIcon from './assets/images/icon-discord.png';
 import BooksIcon from './assets/images/icon-books.png';
 
 function App() {
@@ -34,11 +33,10 @@ function App() {
               <Button color="primary">Launch App</Button>
             </Col>
             <Col md={{ size: 6, offset: 3 }} sm={{ size: 8, offset: 2 }}>
-              <a className="social-icon" href="https://github.com"><img src={GithubIcon} alt="" /></a>
-              <a className="social-icon" href="https://twitter.com"><img src={TwitterIcon} alt="" /></a>
-              <a className="social-icon" href="https://telegram.org"><img src={TelegramIcon} alt="" /></a>
-              <a className="social-icon" href="https://medium.com"><img src={MediumICon} alt="" /></a>
-              <a className="social-icon" href="https://discord.com"><img src={DiscordIcon} alt="" /></a>
+              <a className="social-icon" href="https://github.com/MathTheOneAndOnly/ZeniFinance"><img src={GithubIcon} alt="" /></a>
+              <a className="social-icon" href="https://twitter.com/ZeniProtocol "><img src={TwitterIcon} alt="" /></a>
+              <a className="social-icon" href="https://t.me/zeniprotocol "><img src={TelegramIcon} alt="" /></a>
+              <a className="social-icon" href="https://medium.com/@zeniprotocol"><img src={MediumICon} alt="" /></a>
               <a className="social-icon" href="https://books.google.com"><img src={BooksIcon} alt="" /></a>
             </Col>
           </Row>
