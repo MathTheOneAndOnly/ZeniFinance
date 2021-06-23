@@ -8,7 +8,7 @@ import {
   Button
 } from 'reactstrap';
 import Logo from './assets/images/logo.png';
-import './App.css';
+import './App.scss';
 
 import GithubIcon from './assets/images/icon-github.png';
 import TwitterIcon from './assets/images/icon-twitter.png';
@@ -24,7 +24,7 @@ function App() {
             <img src={Logo} alt="" />
           </NavbarBrand>
         </Navbar>
-        <Container fluid className="d-flex justify-content-center align-items-center">
+        <Container fluid >
           <Row>
             <Col md={{ size: 4, offset: 4 }} sm={{ size: 8, offset: 2 }}>
               <h2 className="text-white">Multi-chain DeFi Hub based on Binance Smart Chain with functional NFTs</h2>

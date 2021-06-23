@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  height: 100%;
+  background: url(./assets/images/back-image.png);
+  background-size: cover;
+  background-position: center;
+  .row{
+    padding-top: 30vh;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .row{
+    padding-top: 27vh !important;
+    .col-sm-8{
+      width: 50%;
+    margin: auto;
+    max-width: 500px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .row{
+    padding-top: 30vh;
+    .col-sm-8{
+      width: 60%;
+    margin: auto;
+    }
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .App .navbar .navbar-brand img {
+    width: 160px;
+  }
+}
+
+.App .container-fluid {
+  height: 100vh;
+}
+
+.App .btn-primary {
+  background: #ff00b4;
+  font-weight: 700;
+  color: black;
+  box-shadow: 0px 2px 31px #6b00ff;
+  border: none;
+  border-radius: 20px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.App .btn-primary:hover {
+  box-shadow: 0px 2px 60px #6b00ff;
+}
+
+.social-icon img {
+  width: 32px;
+  height: 32px;
+  margin: 1rem;
+}
+
+.social-icon img:hover {
+  opacity: 0.9;
+}
